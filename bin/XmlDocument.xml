@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LineNotifyTest</name>
+    </assembly>
+    <members>
+        <member name="M:LineNotifyTest.Controllers.ActionController.triggerLineNotifyTest(System.String)">
+            <summary>
+            取得台中市36小時內天氣資料, 並以Line notify發送訊息至Line群組
+            </summary>
+            <param name="msgTitle">輸入Json：{"msgTitle":"XXX"}, 可加入顯示Line通知訊息</param>
+            <returns>ExecuteResult - 是否成功/回傳自訂物件/執行訊息</returns>
+        </member>
+        <member name="M:LineNotifyTest.Controllers.ActionController.triggerLineNotifyTest">
+            <summary>
+            取得台中市36小時內天氣資料, 並以Line notify發送訊息至Line群組(No message title)
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
